@@ -1,7 +1,7 @@
 # Python dasturlash tili
 
->❓ Python o'zi nima?<br>
->✔️ Python - umumiy Dasturlash tili bo'lib, 1991 yilda Guido van Rossum tomonidan yaratilgan.
+
+Python - umumiy Dasturlash tili bo'lib, 1991 yilda Guido van Rossum tomonidan yaratilgan.
 
 Python - O'rganish uchun oson dasturlash tili hisoblanadi. Web saytlar, O'yinlar, kompyuter uchun dasturlar, telegram botlar yaratsa bo'ladi. Hozirda ko'plab katta kompaniyalar o'z dasturlarida pythondan foydalanib kelishmoqda. (Masalan, Google, Facebook, Instagram va boshqalar)
 
@@ -57,4 +57,23 @@ print("yosh:", yosh)
 ```
 
 ## Klaviatura orqali ma'lumot kiritish
+
+`input()` funksiyasi yordamida ma'lumot kiritiladi. Qavslar ichiga izoh yozish mumkin.
+
+```python
+ism = input("Ismongizni kiriting: ")
+yosh = input("Yoshingizni kiriting: ")
+print("Ismim:", ism, "Yoshim:", yosh)
+```
+
+> 🏠 Uyga vazifa
+
+1. Ikkita a, b sonlarni yig'indisi va ko'paytmasini ekranga chiqaruvchi dastur yozing.
+2. Quyidagi shaklni ekranga chiqaruvchi dastur yozing.
+
+```
+*
+***
+*****
+```
 
